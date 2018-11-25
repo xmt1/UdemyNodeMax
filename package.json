@@ -1,0 +1,24 @@
+{
+  "name": "udemymax",
+  "version": "1.0.0",
+  "description": "Going through the Node.js course from [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Section-4/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmt1/UdemyNodeMax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmt1/UdemyNodeMax/issues"
+  },
+  "homepage": "https://github.com/xmt1/UdemyNodeMax#readme"
+}
