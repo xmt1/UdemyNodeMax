@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Going through the Node.js course from [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
   "devDependencies": {
     "nodemon": "^1.18.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Section-4/app.js"
+    "start": "nodemon Section-5/app.js"
   },
   "repository": {
     "type": "git",
