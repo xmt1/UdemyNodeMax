@@ -10,6 +10,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use('/admin', adminRoutes);
@@ -24,3 +25,7 @@ app.use((req, res, next) => {
 
 
 app.listen(3000);
+var nodemon = require('nodemon');
+
+// force a quit
+nodemon.emit('quit');
