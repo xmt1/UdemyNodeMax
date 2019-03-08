@@ -5,14 +5,17 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Section-5/app.js"
+    "start": "nodemon Section-6/app.js"
   },
   "repository": {
     "type": "git",
