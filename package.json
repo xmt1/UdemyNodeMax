@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Section-6/app.js"
+    "start": "nodemon Section-7/app.js"
   },
   "repository": {
     "type": "git",
